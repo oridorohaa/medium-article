@@ -1,0 +1,112 @@
+body{
+  background-color:rgb(253, 241, 241);
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-bottom: 30px;
+}
+
+.banner{
+  background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2149653756/settings_images/ueV22LGdSdiXfJtINJkB_Adicional-Guernica.jpg);
+  background-size: cover;
+  filter: brightness(.85);
+  padding: 200px 0px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  /* color: rgb(245, 114, 114); */
+
+}
+
+p{
+  line-height: 33px;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+h2{
+  /* line-height: 40px; */
+  letter-spacing: 2px;
+  line-height: 60px;
+  font-size: 33px;
+  color: rgb(102, 98, 98);
+  font-weight: 500;
+}
+
+.banner h1 {
+  font-size: 58px;
+  color: rgb(171 7 7);
+
+  background-color: rgba(10, 11, 11, 0.766);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  filter: brightness(3.75);
+  padding: 5px 0px;
+  margin-bottom: 0px;
+}
+.banner p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: lighter;
+  color: rgb(245, 114, 114);
+  background-color: rgba(10, 11, 11, 0.568);
+  padding-bottom: 5px;
+
+  margin-top:0px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  /* opacity: 0.8; */
+}
+
+.div-image-contianer{
+  width:80vw;
+  display: flex;
+  margin: 0 80px;
+}
+.div-img{
+  /* height:400px;
+  width:400px; */
+  padding: 100px 300px;
+  border-radius: 5px;
+  /* margin-right: 54px; */
+  opacity: .8;
+}
+.horse{
+  margin-right: 54px;
+  background-image: url(https://static.wixstatic.com/media/6990e8_6455936ea56c42bb9fe660bce954ce4d~mv2.jpg/v1/fill/w_779,h_664,al_c,lg_1,q_85,enc_auto/6990e8_6455936ea56c42bb9fe660bce954ce4d~mv2.jpg);
+}
+.bull{
+  margin-left: 54px;
+  background-image: url(https://static.wixstatic.com/media/6990e8_08e78908e77b41c18d1cf067f65ecc7f~mv2.jpg/v1/fill/w_650,h_933,al_c,q_85,enc_auto/6990e8_08e78908e77b41c18d1cf067f65ecc7f~mv2.jpg);
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
